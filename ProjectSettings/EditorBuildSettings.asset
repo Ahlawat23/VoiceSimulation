@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/_mainMenu/MENU.unity
+    guid: 69d04311b918945458f6c6c8ad782f66
+  - enabled: 0
+    path: Assets/Scenes/phontics/Voice_Onset.unity
+    guid: 83c2cd8643850a84c820ba9bb2125590
+  - enabled: 0
+    path: Assets/Scenes/phontics/Loudness_Range.unity
+    guid: 3f8892e3bb787644f826f90fd8b7cda5
+  - enabled: 0
+    path: Assets/Scenes/phontics/Pitch_controll.unity
+    guid: 7585bf7436656c945af3a3e59bd37698
+  - enabled: 0
+    path: Assets/Scenes/phontics/HERTZ.unity
+    guid: e805d25ca07918f44837ac7c0aca3bf1
+  - enabled: 0
+    path: Assets/Scenes/sylable/Syllable_Control.unity
+    guid: 4880ef4e382270b4584882e0782a0c13
+  - enabled: 0
+    path: Assets/Scenes/sylable/DuckScenes/Phoneme_Accuracy.unity
+    guid: 5ea1ac64a6c08e34e8b4876476bb9fbf
+  - enabled: 0
+    path: Assets/Scenes/sylable/DuckScenes/level2Duck.unity
+    guid: 6ce2039cf120e5044a4368d1d3950622
+  - enabled: 0
+    path: Assets/Scenes/sylable/DuckScenes/level3Duck.unity
+    guid: c138ce8d81009d74285f59a304927dfa
+  - enabled: 0
+    path: Assets/Scenes/sylable/Word_Slider.unity
+    guid: 2054f0d6d7c3b084c9882e25bf774f08
+  - enabled: 0
+    path: Assets/Scenes/sylable/Diado_Kinetic_Rate.unity
+    guid: 08d29e59bf4f84849ba4996db2a3b6ce
+  - enabled: 0
+    path: Assets/Scenes/sylable/Rapid_Words_Platform.unity
+    guid: 7e50639dd491a5b4b9fcbbb184cfb0ca
+  - enabled: 0
+    path: Assets/Scenes/words/BallColor.unity
+    guid: 344e30a267941474786f44e32f238695
+  - enabled: 0
+    path: Assets/Scenes/words/allTree.unity
+    guid: 331b99b7dd6fb6243862004f6d0606b6
+  - enabled: 0
+    path: Assets/Scenes/words/balloon.unity
+    guid: 23d5a3dc4f9459b4189bcd07173cbadc
+  - enabled: 0
+    path: Assets/Scenes/words/BucketSim.unity
+    guid: d0f62aeba86e2384c9a60a07cfdd4da4
+  - enabled: 0
+    path: Assets/Scenes/words/Monkey.unity
+    guid: 50143a83119ee604190a68ec197a7a44
+  - enabled: 0
+    path: Assets/Scenes/words/newCandle.unity
+    guid: 35c68609225e03344a0ee80ff76d3ed2
+  - enabled: 0
+    path: Assets/Scenes/words/newFountain.unity
+    guid: 0901cb08ff3ca3c4191bb20f8bf1ae02
+  - enabled: 1
+    path: Assets/Scenes/words/Train.unity
+    guid: 656be8dd18977f1448ac01c353688cef
+  - enabled: 0
+    path: Assets/Scenes/Basketball.unity
+    guid: 92b5dd93aa3453343a1de382185b2831
+  - enabled: 0
+    path: Assets/Scenes/glossyBubbles.unity
+    guid: e2e1b8b40b4814443bbd3d0357ecad8b
+  - enabled: 0
+    path: Assets/Scenes/trainMove.unity
+    guid: d582bff17d04b94499ccb6d2f776450a
+  m_configObjects: {}

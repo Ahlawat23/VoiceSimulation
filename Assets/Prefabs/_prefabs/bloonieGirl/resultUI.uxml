@@ -1,0 +1,117 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BackGround" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgb(255, 255, 255); background-image: url(&apos;project://database/Assets/Artworks/_UI2.0/SETTING.png?fileID=2800000&amp;guid=8b32bdd16d156d84285e289549e7e847&amp;type=3#SETTING&apos;); flex-direction: column;">
+        <ui:VisualElement style="flex-direction: row; width: 1712px; height: 829px; background-image: url(&apos;project://database/Assets/Artworks/_UI2.0/yellowBackground.png?fileID=2800000&amp;guid=876b049786d5d3b4c816faee29186a08&amp;type=3#yellowBackground&apos;);">
+            <ui:VisualElement name="LeftSide" style="flex-grow: 1; align-items: stretch; justify-content: space-between; flex-direction: column;">
+                <ui:VisualElement name="clientId" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-around;">
+                    <ui:Label text="Client Id:" display-tooltip-when-elided="true" style="font-size: 25px;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="clientID" style="font-size: 25px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Settings" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between;">
+                    <ui:VisualElement name="leftSide" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label text="Settings" display-tooltip-when-elided="true" enable-rich-text="true" style="font-size: 35px; right: -80px; -unity-font: url(&apos;project://database/Assets/fonts/Poppins-SemiBoldItalic.ttf?fileID=12800000&amp;guid=4a45ffdd748b7fc4a87a24473e573458&amp;type=3#Poppins-SemiBoldItalic&apos;); -unity-font-style: normal; color: rgb(0, 0, 0);" />
+                        <ui:Label text="Loudness Target" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px; -unity-font-style: italic; -unity-font: url(&apos;project://database/Assets/fonts/jejuhallasan/JejuHallasan-Regular.ttf?fileID=12800000&amp;guid=077e5bcb61927404b96948e15007d5ff&amp;type=3#JejuHallasan-Regular&apos;); -unity-font-definition: url(&apos;project://database/Assets/fonts/jejuhallasan/JejuHallasan-Regular%20SDF.asset?fileID=11400000&amp;guid=bff778ac29862b742b4e168664904b82&amp;type=2#JejuHallasan-Regular SDF&apos;);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="rightSide" style="flex-grow: 1; align-items: center; justify-content: center;">
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="loundNessTarget" style="font-size: 25px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Counts" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between;">
+                    <ui:VisualElement name="leftSide" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label text="Counts" display-tooltip-when-elided="true" style="font-size: 35px; right: -80px;" />
+                        <ui:Label text="Number of trials" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="rightSide" style="flex-grow: 1; align-items: center; justify-content: center;">
+                        <ui:Label text="Total" display-tooltip-when-elided="true" style="font-size: 35px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="NumOfTrials" style="font-size: 25px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="AccousticData" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between;">
+                    <ui:VisualElement name="leftSide" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label text="Accoustic Data" display-tooltip-when-elided="true" style="font-size: 35px; right: -80px;" />
+                        <ui:Label text="Pitch:" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                        <ui:Label text="Loudness:" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                        <ui:Label text="Duration of Successfull attempts:" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="rightSide" style="flex-grow: 1; align-items: center; justify-content: center;">
+                        <ui:Label text="Last" display-tooltip-when-elided="true" style="font-size: 35px;" />
+                        <ui:Label display-tooltip-when-elided="true" style="font-size: 25px;" />
+                        <ui:Label display-tooltip-when-elided="true" name="Loudness" style="font-size: 25px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="DurationOfSuccessFullAttempts" style="font-size: 25px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Buttons" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-around;">
+                    <ui:Button text="Print" display-tooltip-when-elided="true" name="Print" style="width: 266px; height: 80px; background-image: url(&apos;project://database/Assets/Artworks/_UI2.0/swd.png?fileID=2800000&amp;guid=5daeccbafb5f0fe4e89daee27f62014f&amp;type=3#swd&apos;); color: rgb(255, 255, 255); font-size: 30px; background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgb(255, 255, 255); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); -unity-font: url(&apos;project://database/Assets/fonts/jejuhallasan/JejuHallasan-Regular.ttf?fileID=12800000&amp;guid=077e5bcb61927404b96948e15007d5ff&amp;type=3#JejuHallasan-Regular&apos;);" />
+                    <ui:Button text="Reset" display-tooltip-when-elided="true" name="Reset" style="width: 266px; height: 80px; background-image: url(&apos;project://database/Assets/Artworks/_UI2.0/swd.png?fileID=2800000&amp;guid=5daeccbafb5f0fe4e89daee27f62014f&amp;type=3#swd&apos;); background-color: rgba(255, 255, 255, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); -unity-font: url(&apos;project://database/Assets/fonts/jejuhallasan/JejuHallasan-Regular.ttf?fileID=12800000&amp;guid=077e5bcb61927404b96948e15007d5ff&amp;type=3#JejuHallasan-Regular&apos;); font-size: 30px; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="RightSide" style="flex-grow: 1; align-items: stretch; justify-content: space-between; flex-direction: column;">
+                <ui:VisualElement name="dateandtime" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between;">
+                    <ui:VisualElement name="leftSide" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label text="Date" display-tooltip-when-elided="true" name="Label" style="font-size: 25px; right: -80px;" />
+                        <ui:Label text="ElapsedTime" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="rightSide" style="flex-grow: 1; align-items: center; justify-content: center;">
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="Date" style="font-size: 25px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="ElapsedTime" style="font-size: 25px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="emptySpace" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between;">
+                    <ui:VisualElement name="leftSide" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label display-tooltip-when-elided="true" style="font-size: 35px; right: -80px;" />
+                        <ui:Label display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="rightSide" style="flex-grow: 1; align-items: center; justify-content: center;">
+                        <ui:Label display-tooltip-when-elided="true" style="font-size: 35px;" />
+                        <ui:Label display-tooltip-when-elided="true" style="font-size: 25px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="target" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between;">
+                    <ui:VisualElement name="leftSide" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label text="Measurement" display-tooltip-when-elided="true" style="font-size: 35px; right: -80px;" />
+                        <ui:Label text="Cummulative Duration of sounds" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="rightSide" style="flex-grow: 1; align-items: center; justify-content: center;">
+                        <ui:Label text="Total" display-tooltip-when-elided="true" style="font-size: 35px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="cummulativeDurationOfSounds" style="font-size: 25px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="AccousticData" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between;">
+                    <ui:VisualElement name="coloumnOne" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label text="Mean" display-tooltip-when-elided="true" style="font-size: 35px; right: -80px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="Mean1" style="font-size: 25px; right: -80px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="Mean2" style="font-size: 25px; right: -80px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="Mean3" style="font-size: 25px; right: -80px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="coloumnTwo" style="flex-grow: 1; align-items: flex-start; justify-content: center;">
+                        <ui:Label text=" Std. dev." display-tooltip-when-elided="true" style="font-size: 35px; right: -80px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="StdDev1" style="font-size: 25px; right: -80px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="StdDev2" style="font-size: 25px; right: -80px;" />
+                        <ui:Label text="00" display-tooltip-when-elided="true" name="StdDev3" style="font-size: 25px; right: -80px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="coloumnThree" style="flex-grow: 1; align-items: flex-start; justify-content: center; flex-direction: column;">
+                        <ui:Label text="Range" display-tooltip-when-elided="true" style="font-size: 35px; right: -80px;" />
+                        <ui:VisualElement style="flex-direction: row; align-items: flex-start; justify-content: center;">
+                            <ui:Label text="00" display-tooltip-when-elided="true" name="Range1Low" style="font-size: 25px; right: -80px;" />
+                            <ui:Label text="-" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                            <ui:Label text="00" display-tooltip-when-elided="true" name="Range1High" style="font-size: 25px; right: -80px; flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="flex-direction: row; align-items: stretch; justify-content: center;">
+                            <ui:Label text="00" display-tooltip-when-elided="true" name="Range2Low" style="font-size: 25px; right: -80px;" />
+                            <ui:Label text="-" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                            <ui:Label text="00" display-tooltip-when-elided="true" name="Range2High" style="font-size: 25px; right: -80px;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="flex-direction: row; align-items: stretch; justify-content: center;">
+                            <ui:Label text="00" display-tooltip-when-elided="true" name="Range3Low" style="font-size: 25px; right: -80px;" />
+                            <ui:Label text="-" display-tooltip-when-elided="true" style="font-size: 25px; right: -80px;" />
+                            <ui:Label text="00" display-tooltip-when-elided="true" name="Range3High" style="font-size: 25px; right: -80px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Buttons" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-around;">
+                    <ui:Button text="Recording Feedback" display-tooltip-when-elided="true" name="PlayItBack" style="width: 266px; height: 80px; font-size: 25px; -unity-font: url(&apos;project://database/Assets/fonts/Poppins-ExtraBoldItalic.ttf?fileID=12800000&amp;guid=763e77e77715ab642b60383e7691481e&amp;type=3#Poppins-ExtraBoldItalic&apos;); color: rgb(255, 255, 255); background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/Artworks/_UI2.0/swd.png?fileID=2800000&amp;guid=5daeccbafb5f0fe4e89daee27f62014f&amp;type=3#swd&apos;); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+                    <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit" style="width: 266px; height: 80px; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-color: rgba(188, 188, 188, 0); background-image: url(&apos;project://database/Assets/Artworks/_UI2.0/swd.png?fileID=2800000&amp;guid=5daeccbafb5f0fe4e89daee27f62014f&amp;type=3#swd&apos;); font-size: 35px; -unity-font: url(&apos;project://database/Assets/fonts/jejuhallasan/JejuHallasan-Regular.ttf?fileID=12800000&amp;guid=077e5bcb61927404b96948e15007d5ff&amp;type=3#JejuHallasan-Regular&apos;); color: rgb(255, 255, 255); -unity-background-image-tint-color: rgba(255, 0, 0, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
